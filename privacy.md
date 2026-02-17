@@ -4,7 +4,7 @@ title: Privacy Policy
 permalink: /privacy
 ---
 
-**Last Updated: February 8, 2026**
+**Last Updated: February 17, 2026**
 
 Jehron Petty ("we," "us," or "our") operates the Today mobile application ("Today" or the "App"). This Privacy Policy explains how we collect, use, and protect your information when you use our App.
 
@@ -24,11 +24,11 @@ By using Today, you agree to the collection and use of information as described 
 
 - **Device Token**: If you enable push notifications, we store your device token to deliver notifications via Apple Push Notification Service (APNs).
 - **Authentication Data**: Depending on your sign-in method, we receive limited profile information from Google or Apple (see Third-Party Services below).
+- **Usage Data**: We collect anonymous analytics events to understand how the App is used, such as when a post or comment is created. These events are tied to your user ID but do not include message content, location, or device identifiers. See PostHog under Third-Party Services below.
 
 ### Information We Do Not Collect
 
 - Location data
-- Analytics or usage tracking data
 - Device identifiers or advertising IDs
 - Contact list or address book data
 - Browsing history
@@ -43,7 +43,7 @@ We use the information we collect solely to:
 - **Moderate Content**: Review reported content and enforce our Terms of Service, including removing content that violates our policies.
 - **Maintain Your Account**: Enable you to update your profile, manage notification preferences, refresh your friend code, and delete your account.
 
-We do not use your information for advertising, analytics, profiling, or any purpose other than operating the App.
+We do not use your information for advertising, profiling, or any purpose other than operating and improving the App.
 
 ## Third-Party Services
 
@@ -66,6 +66,12 @@ If you sign in with Google, we receive your display name, email address, and pro
 If you sign in with Apple, we receive your name and email address (only on first sign-in). Apple may provide a private relay email address if you choose to hide your email. We do not access any other Apple account data.
 
 - [Apple Privacy Policy](https://www.apple.com/privacy/)
+
+### PostHog
+
+We use [PostHog](https://posthog.com) for product analytics to understand how the App is used and to improve the experience. PostHog receives anonymous event data (e.g., "a post was created") tied to your user ID. It does not receive the content of your posts, comments, or messages, your location, or device advertising identifiers.
+
+- [PostHog Privacy Policy](https://posthog.com/privacy)
 
 ### Apple Push Notification Service (APNs)
 
